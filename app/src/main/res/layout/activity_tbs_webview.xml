@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tbs_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_54"
+        android:background="#cc212d"
+        android:elevation="@dimen/dp_6">
+
+        <TextView
+            android:id="@+id/tbs_toolbar_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:maxEms="16"
+            android:ellipsize="end"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_16"
+            tools:text="开发环境" />
+    </android.support.v7.widget.Toolbar>
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:layout_below="@id/tbs_toolbar"
+        android:id="@+id/refreshLayout"
+        app:srlHeaderHeight="150dp"
+        app:srlHeaderMaxDragRate="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="5dp"
+            android:padding="20dp"
+            android:background="#555"
+            android:gravity="center_horizontal"
+            android:textColor="#aaa"
+            android:textSize="12sp"
+            android:text="@string/github_qq_browser_kernel"
+            app:layout_srlBackgroundColor="#555"
+            app:layout_srlSpinnerStyle="FixedBehind"/>
+
+        <com.tencent.smtt.sdk.WebView
+            android:layout_below="@id/tbs_toolbar"
+            android:id="@+id/tbs_webview"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    <com.xzl.project.minizhihu.widget.WebViewProgressBar
+        android:layout_below="@id/tbs_toolbar"
+        android:id="@+id/webprogress"
+        app:progress = "100"
+        app:progressColor = "#000000"
+        app:progressHeight = "5"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

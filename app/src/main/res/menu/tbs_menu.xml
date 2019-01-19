@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:icon="@drawable/ic_love"
+        android:id="@+id/collection_select"
+        app:showAsAction="always"
+        android:title="收藏" />
+
+    <item android:title="分享"
+        android:id="@+id/web_share"
+        android:icon="@drawable/ic_action_share"
+        app:showAsAction="never"/>
+
+    <item android:title="用系统浏览器打开"
+        android:id="@+id/web_browser"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_action_browser"/>
+
+    <item android:title="生成二维码"
+        android:id="@+id/qr_code"
+        app:showAsAction="never"/>
+
+</menu>

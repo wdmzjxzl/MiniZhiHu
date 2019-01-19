@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@mipmap/icon_wan_android"
+    app:layout_editor_absoluteY="@dimen/dp_25"
+    android:layout_height="match_parent">
+
+    <Button
+        android:minWidth="@dimen/dp_60"
+        android:textColor="@color/white"
+        android:minHeight="@dimen/dp_28"
+        android:background="@drawable/btn_selector"
+        android:text="@string/splash_intent"
+        android:id="@+id/intent_btn"
+        android:gravity="center"
+        android:layout_margin="@dimen/dp_15"
+        android:onClick="onclick"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <yanzhikai.textpath.SyncTextPathView
+            android:id="@+id/atpv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:duration="4000"
+            app:showPainter="true"
+            app:text="玩"
+            app:textStrokeColor="@color/colorPrimary"
+            app:textInCenter="true"
+            app:textSize="62sp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <yanzhikai.textpath.SyncTextPathView
+                android:id="@+id/atpv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:duration="4000"
+                app:showPainter="true"
+                app:text="A"
+                app:textStrokeColor="@color/colorPrimary"
+                app:textSize="62sp"/>
+
+            <yanzhikai.textpath.SyncTextPathView
+                android:id="@+id/atpv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:duration="4000"
+                app:showPainter="true"
+                app:text="n"
+                app:textStrokeColor="@color/colorPrimary"
+                app:textSize="62sp"/>
+
+            <yanzhikai.textpath.SyncTextPathView
+                android:id="@+id/atpv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:duration="4000"
+                app:showPainter="true"
+                app:text="d"
+                app:textStrokeColor="@color/colorPrimary"
+                app:textSize="62sp"/>
+
+            <yanzhikai.textpath.SyncTextPathView
+                android:id="@+id/atpv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:duration="4000"
+                app:showPainter="true"
+                app:text="r"
+                app:textStrokeColor="@color/colorPrimary"
+                app:textSize="62sp"/>
+
+            <yanzhikai.textpath.SyncTextPathView
+                android:id="@+id/atpv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:duration="4000"
+                app:showPainter="true"
+                app:text="o"
+                app:textStrokeColor="@color/colorPrimary"
+                app:textSize="62sp"/>
+
+            <yanzhikai.textpath.SyncTextPathView
+                android:id="@+id/atpv7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:duration="4000"
+                app:showPainter="true"
+                app:text="i"
+                app:textStrokeColor="@color/colorPrimary"
+                app:textSize="62sp"/>
+
+            <yanzhikai.textpath.SyncTextPathView
+                android:id="@+id/atpv8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:duration="4000"
+                app:showPainter="true"
+                app:text="d"
+                app:textStrokeColor="@color/colorPrimary"
+                app:textSize="62sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tl="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    tl:context=".view.activity.KnowledgeHierarchyDetailActivity"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_height="match_parent">
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/classification_toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/dp_54"-->
+        <!--android:background="#cc212d"-->
+        <!--android:elevation="@dimen/dp_6">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/classification_toolbar_title_tv"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:singleLine="true"-->
+            <!--android:maxEms="16"-->
+            <!--android:ellipsize="end"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="@dimen/sp_16"-->
+            <!--tools:text="开发环境" />-->
+
+    <!--</android.support.v7.widget.Toolbar>-->
+
+    <com.flyco.tablayout.SlidingTabLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:id="@+id/knowledge_hierarchy_detail_tab_layout"
+        android:background="@color/colorPrimary"
+        app:tl_textAllCaps="false"
+        app:tl_textBold="BOTH"
+        app:tl_textsize="@dimen/sp_14"
+        android:elevation="@dimen/dp_6"
+        tl:tl_divider_color="#1A000000"
+        tl:tl_divider_padding="13dp"
+        tl:tl_divider_width="1dp"
+        tl:tl_indicator_color="#000000"
+        tl:tl_indicator_height="1.5dp"
+        tl:tl_indicator_width_equal_title="true"
+        tl:tl_tab_padding="22dp"
+        tl:tl_tab_space_equal="true"
+        tl:tl_textSelectColor="#000000"
+        tl:tl_textUnselectColor="#66000000"
+        tl:tl_underline_color="#1A000000"
+        tl:tl_underline_height="1dp"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/knowledge_hierarchy_detail_viewpager"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/feedback_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_54"
+        android:background="#cc212d"
+        android:elevation="@dimen/dp_6">
+
+        <TextView
+            android:id="@+id/feedback_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:maxEms="16"
+            android:ellipsize="end"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_16"
+            tools:text="反馈" />
+    </android.support.v7.widget.Toolbar>
+
+    <com.tencent.smtt.sdk.WebView
+        android:layout_below="@id/feedback_toolbar"
+        android:id="@+id/feedback_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.xzl.project.minizhihu.widget.WebViewProgressBar
+        android:layout_below="@id/feedback_toolbar"
+        android:id="@+id/webprogress"
+        app:progress = "100"
+        app:progressColor = "#000000"
+        app:progressHeight = "5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/content"
+    android:background="@drawable/dialog_background"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:padding="@dimen/dp_15"
+        android:id="@+id/qrcode_img"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/share_text"
+        android:textSize="@dimen/sp_16"
+        android:layout_below="@id/qrcode_img"
+        android:text="@string/qrcode_text"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_below="@id/share_text"
+        android:padding="@dimen/dp_15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/qq_share"
+            android:layout_weight="1"
+            android:src="@drawable/qq"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/wechat_share"
+            android:src="@drawable/wechat"
+            android:layout_weight="1"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

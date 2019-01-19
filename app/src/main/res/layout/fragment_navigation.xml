@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:visibility="invisible"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UselessParent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<q.rorbin.verticaltablayout.VerticalTabLayout-->
+        <!--android:id="@+id/navigation_tab_layout"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@color/deep_grey"-->
+        <!--android:paddingLeft="@dimen/dp_3"-->
+        <!--android:paddingRight="@dimen/dp_3"-->
+        <!--app:indicator_corners="20dp"-->
+        <!--app:indicator_gravity="fill"-->
+        <!--app:tab_margin="20dp"-->
+        <!--app:tab_mode="scrollable" />-->
+
+    <!--<View-->
+        <!--android:id="@+id/navigation_divider"-->
+        <!--android:layout_width="0.5dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@color/deep_grey"/>-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/navigation_RecyclerView"
+        android:background="#ffffff"
+        app:tag_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

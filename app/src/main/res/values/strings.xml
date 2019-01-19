@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">玩Android</string>
+
+    <string name="awesome_wan_android">XuZelin WanAndroid</string>
+    <string name="github_qq_browser_kernel">The web page is provided by github.com.\nThe QQ browser X5 kernel has been enabled.</string>
+    <string name="project">Project</string>
+    <string name="navigation">Navigation</string>
+    <string name="share_view">shareView</string>
+    <string name="scale_down_show_behavior">json.chao.com.wanandroid.widget.behavior.ScaleDownShowBehavior</string>
+
+    <string name="about_content"><![CDATA[
+        <h2>网站内容</h2>
+        <p>\t\t本网站每天新增20~30篇优质文章，并加入到现有分类中，力求整理出一份优质而又详尽的知识体系，闲暇时间不妨上来学习下知识；除此以外，并为大家提供平时开发过程中常用的工具以及常用的网址导航。
+        当然这只是我们目前的功能，未来我们将提供更多更加便捷的功能…
+        <p>\t\t如果您有任何好的建议：</p>
+            \t\t\t\t关于网站排版
+            <br/>\t\t\t\t关于新增常用网址以及工具
+            <br/>\t\t\t\t未来你希望增加的功能等
+        <p>\t\t可以在 <a href="https://github.com/hongyangAndroid/wanandroid" target="_blank">https://github.com/hongyangAndroid/xueandroid</a> 项目中以issue的形式提出，我将及时跟进。</p>
+        <p>\t\t如果您希望长期关注本站，可以加入我们的QQ群：<b>591683946</b></p>
+        <h2>开发者：</h2>
+        <p>\t\t本软件为徐泽林的学习项目，软件有诸多错误之处，如果你发现任何错误，不要犹豫，马上在<b>评论区留言</b>或者<b>私信开发者</b>，我将及时查看并修改BUG。</p>
+        <p>\t\t此外，如果觉得该项目不能满足，可以在 github 上搜索wanandroid，有几百个客户端供你选择。
+
+如果觉得还不满足，那么可以通过<a href="http://www.wanandroid.com/blog/show/2" target="_blank">WanAndroid</a>的 API 自己撸一个客户端。</p>
+    ]]></string>
+    <string name="imagecardtext">图片来源：小鸟壁纸</string>
+    <string name="xuzelin_wanandroid">XuZelin WanAndroid</string>
+    <string name="application_text">首页</string>
+    <string name="structure_text">知识体系</string>
+    <string name="navigatioin_text">导航</string>
+    <string name="project_text">项目</string>
+    <string name="wallpaper_text">每次进入当前页随机推荐图片</string>
+    <string name="didiao">我的低调不是你们装逼的资本</string>
+    <string name="qrcode_text">分享二维码</string>
+    <string name="changyonghttp">常用网站</string>
+    <string name="search_tv">Search</string>
+    <string name="find_more_dry_goods">Find more dry goods</string>
+    <string name="action_search">搜索</string>
+    <string name="search_tint">Find more dry goods</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="hot_search">热搜</string>
+    <string name="clear_all">清空</string>
+    <string name="search_history">搜索历史</string>
+    <string name="search_null_tint">赶紧搜点干货吧 *≧▽≦*</string>
+    <string name="search_hint">请输入搜索关键词</string>
+    <string name="splash_intent">跳过</string>
+    <string name="about_me">关于我们</string>
+    <string name="tugecao">吐个槽</string>
+    <string name="login_tv">Login</string>
+    <string name="please_enter_user_name">请输入用户名</string>
+    <string name="please_enter_password">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="or">Or</string>
+    <string name="sign_up">注册</string>
+    <string name="enterpassword">输入密码</string>
+    <string name="email_phone_number">请输入账号</string>
+    <string name="confirm_password">确认密码</string>
+</resources>

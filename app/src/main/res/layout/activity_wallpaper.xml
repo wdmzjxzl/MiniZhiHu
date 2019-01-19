@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/wallpaper_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_54"
+        android:background="#cc212d"
+        android:elevation="@dimen/dp_6">
+
+        <TextView
+            android:id="@+id/wallpaper_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:maxEms="16"
+            android:ellipsize="end"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_16"
+            tools:text="玩什么安卓？看妹子啊！" />
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:text="@string/wallpaper_text"
+        android:layout_gravity="center"
+        android:textColor="@color/comment_text"
+        android:textSize="@dimen/sp_16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/wallpaper_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
